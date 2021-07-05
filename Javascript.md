@@ -1,4 +1,4 @@
-# Javscript
+# Javascript
  - Javascript is a dynamically typed scripting language which is used to add interaction to websites, caluculate, manipulate data in the web, control the contents of the web dynamically. 
 
 ## Javascript Basics
