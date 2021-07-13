@@ -39,7 +39,7 @@ npm i -D typescript @types/react @types/react-dom
 
 ## Add babel as devlopment dependencies
 
-npm i -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
+npm i -D babel-loader @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
 
 ## Add babel config file (.babelrc)
 
