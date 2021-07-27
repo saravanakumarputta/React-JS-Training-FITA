@@ -200,7 +200,7 @@ const Content: React.FC<ContentProps> = () => {
 
 	const getProducts = async () => {
 		try {
-			dispatch(ProductActionCreators.fetchProducts());
+			await dispatch(ProductActionCreators.fetchProducts());
 		} catch (error) {
 			console.log(error);
 		}
