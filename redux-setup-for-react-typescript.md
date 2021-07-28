@@ -13,7 +13,7 @@ export interface ProductState{
  products: Product[] 
 }
 
-const intialState: ProductReducerState{
+const intialState: ProductState{
  products: []
 }
 
@@ -63,7 +63,7 @@ export default store;
 ## Add store to the Application
 
 ```javascript
-import Provider from 'react-redux';
+import {Provider} from 'react-redux';
 import store from './store';
 <Provider store={store}>
 //Your App
